@@ -2,7 +2,6 @@
 
 An Express (Node.js) implementation of the Bajaj Finserv Health Full-Stack assignment API.  
 It exposes a single POST endpoint `/bfhl` that parses a mixed array, returns categorized values, a computed sum (as a string), and a “reverse + alternating-caps” concatenation of letters.  
-A helper `GET /bfhl` endpoint returns `{ "operation_code": 1 }` for health checks.
 
 ---
 
@@ -16,7 +15,7 @@ A helper `GET /bfhl` endpoint returns `{ "operation_code": 1 }` for health check
   - `sum` — arithmetic sum of all numeric tokens, returned as a **string**
   - `concat_string` — take **letters from all tokens** (including mixed like `"abc123"`), reverse them, then apply alternating caps starting **Upper** at index 0
 - **Identity (hardcoded as requested)**
-  - `user_id`: `kanishk_sharma`
+  - `user_id`: `kanishk_sharma_06062003`
   - `email`: `kanishk.sharma2022a@vitstudent.ac.in`
   - `roll_number`: `22BCE1416`
 - **Error envelope**
