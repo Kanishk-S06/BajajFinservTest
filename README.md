@@ -23,7 +23,5 @@ A helper `GET /bfhl` endpoint returns `{ "operation_code": 1 }` for health check
   - Invalid/missing payloads return `200 OK` with `is_success: false` and empty arrays
   - Invalid JSON also returns `200 OK` with `is_success: false` and `error: "Invalid JSON"`
 
----
 
-## 📦 Project Structure
 
