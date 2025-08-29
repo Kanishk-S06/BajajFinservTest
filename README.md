@@ -1,6 +1,6 @@
 # BFHL Express API
 
-An Express (Node.js) implementation of the VIT Full-Stack assignment API.  
+An Express (Node.js) implementation of the Bajaj Finserv Health Full-Stack assignment API.  
 It exposes a single POST endpoint `/bfhl` that parses a mixed array, returns categorized values, a computed sum (as a string), and a “reverse + alternating-caps” concatenation of letters.  
 A helper `GET /bfhl` endpoint returns `{ "operation_code": 1 }` for health checks.
 
